@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+body, html{
+  font-size: 16px;
+  height: 100%;
+  
+}
+
+main{
+display:flex;
+flex-direction:column;
+width:100%;
+height:100%;
+}
+
+main .section{
+display: flex;
+flex-direction: column;
+height:100%;
+}
+
+main .section h1{
+
+
+  
+}
+
+main .section h2{
+  
+}
+
+main .section p{
+  
+}
+  .title{
+    min-height:30vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    background-image: url("https://t4.ftcdn.net/jpg/02/55/57/33/360_F_255573369_NrbcMNYC1hz1xJigxCOCN8OXsxmtx0TB.jpg");
+    background-size:cover;
+
+  }
+
+  .title h1, p{
+    margin-right:1rem;
+  }
+
+
+  
+  .products{
+    display:flex;
+    text-align:center;
+    margin-top:2rem;
+    
+  }
+
+  .product-container{
+    display:flex;
+    gap:1rem;
+    justify-content:space-between;
+    margin:2rem;
+  }
+
+  .pizza-card{
+    display:flex;
+    flex-flow:column wrap;
+    gap:1rem;
+    width:50%;
+    justify-content:space-around;
+    text-align: center;
+
+  }
+
+  button{
+    background-color: darkred;
+    color:white;
+    
+  }
+
+   .products img{
+    width:100%;
+    
+   }
+
+
+ .teamates{
+   display:flex;
+   text-align:center;
+ }
+
+ .team-container{
+    display:flex;
+    gap:1rem;
+    justify-content:space-around;
+    margin:2rem;
+  }
+
+ .team-card{
+    display:flex;
+    flex-flow:column wrap;
+    gap:1rem;
+    width:50%;
+    justify-content:space-around;
+    text-align: center;
+
+  }
+
+ .teamates img{
+  width:100%;
+ }
+
+
